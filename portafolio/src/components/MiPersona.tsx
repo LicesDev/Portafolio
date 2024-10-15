@@ -4,7 +4,7 @@ import './MiPersona.css';
 
 const MiPersona = () => {
   return (
-       <section className="content">
+       <section className="content persona">
         <div className="burbuja">
            <Bubble
   direction="left"

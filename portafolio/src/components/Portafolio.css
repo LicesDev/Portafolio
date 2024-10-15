@@ -1,0 +1,19 @@
+.card_beacon{  
+    display: flex;
+    height: 350px;
+}
+.logo_beacon{
+    height: 200px;
+    margin: auto;
+}
+p{
+    max-width: 60%;
+}
+
+.cards{
+    margin: 40px 10px 10px 10px ;
+}
+
+.carta{
+    margin-top: 40px;
+}

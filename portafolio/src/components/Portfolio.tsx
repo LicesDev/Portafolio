@@ -1,39 +1,86 @@
-import React from 'react';
+import React from "react";
+import { Card } from "pixel-retroui";
+import "./Portafolio.css";
 
 const Portfolio = () => {
-  return (
-    <section className="content">
-      <div className="grand-title" id="servicio">
-        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, repellendus!</h4>
-      </div>
-      <div className="text">
-        <div className="inner-text">
-          <h3>Genialidea</h3>
-          <i className="ic ion-fork"></i>
-          <div className="text-box">
-            <h5>Genialidea</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, modi!</p>
-          </div>
-        </div>
-        {/* Repite las secciones inner-text como sea necesario */}
-      </div>
-
-      <section className="portafolio" id="trabajo">
-        <h4>Trabajos</h4>
-        <div className="portafolio-container">
-          <section className="portafolio-item">
-          <img  src={`${process.env.PUBLIC_URL}/BeaconApp2.gif`} alt="logo" />
-            <img src="https://unsplash.it/400/430?image=490" alt="" className="portafolio-img" />
-            <section className="portafolio-text">
-              <h5>Genialidea</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloremque, error nostrum tempora sapiente corporis.</p>
-            </section>
-          </section>
-          {/* Agrega más items de portafolio como necesites */}
-        </div>
-      </section>
-    </section>
-  );
+	return (
+		<section className="content cards">
+			<div className="carta">
+				<Card
+					className="p-4"
+					bg="black"
+					textColor="white"
+					borderColor="#4f0c73"
+					shadowColor="#5c16b1"
+				>
+					<h2>Beacon App</h2>
+					<br />
+					<div className="card_beacon">
+						<p>
+							Una aplicación movil desarrollada en Ionic 7 y Angular 17 para la
+							toma de asistencia en una empresa de seguridad. Incorpora
+							funcionalidades avanzadas como geolocalización, detección de
+							Bluetooth y alertas en tiempo real para garantizar una gestión
+							eficiente y precisa del personal.
+							<img
+								className="logo_beacon"
+								src={`${process.env.PUBLIC_URL}/logoBeacon.png`}
+								alt="logo"
+							/>
+						</p>
+						<video
+							width="320"
+							height="180"
+							controls
+							src={`${process.env.PUBLIC_URL}/BeaconApp1.mp4`}
+						></video>
+						<video
+							width="320"
+							height="180"
+							controls
+							src={`${process.env.PUBLIC_URL}/BeaconApp2.mp4`}
+						></video>
+					</div>
+				</Card>
+			</div>
+			<div className="carta">
+				<Card
+					className="p-4"
+					bg="black"
+					textColor="white"
+					borderColor="#4f0c73"
+					shadowColor="#5c16b1"
+				>
+					<h2>Dimensionador</h2>
+					<br />
+					<div className="card_beacon">
+						<p>
+            Una aplicación web diseñada para la cubicación de paquetes a través de una cámara especial. También integra la lectura de códigos QR, 
+            lo que optimiza la captura de información de cada paquete. La información recopilada se guarda en una base de datos, ayudando a 
+            dimensionar el transporte necesario de manera más eficiente.
+							<img
+								className="logo_beacon"
+								src={`${process.env.PUBLIC_URL}/logoDimensionador.png`}
+								alt="logo"
+							/>
+						</p>
+						<video
+							width="320"
+							height="180"
+							controls
+							src={`${process.env.PUBLIC_URL}/BeaconApp1.mp4`}
+						></video>
+						<video
+							width="320"
+							height="180"
+							controls
+							src={`${process.env.PUBLIC_URL}/BeaconApp2.mp4`}
+						></video>
+					</div>
+				</Card>
+			</div>
+		</section>
+	);
 };
 
 export default Portfolio;

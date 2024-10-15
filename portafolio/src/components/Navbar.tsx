@@ -6,7 +6,9 @@ const Navbar = () => {
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      const navbarHeight = document.querySelector('.nav')?.clientHeight || 0; // Obtén la altura de la navbar
+      const sectionTop = section.getBoundingClientRect().top + window.scrollY; // Obtén la posición top de la sección
+      window.scrollTo({ top: sectionTop - navbarHeight, behavior: 'smooth' }); // Desplázate considerando la altura de la navbar
     }
   };
 
