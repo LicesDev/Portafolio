@@ -17,16 +17,25 @@ const Navbar = () => {
           <h5 className="logo">Daniel Santelices</h5>
           <ul>
             <li>
-              <Button onClick={() => scrollToSection('inicio')}>Inicio</Button>
+              <Button 
+              bg="#532a6a"
+              textColor="#ffffff"
+              borderColor="#000000" onClick={() => scrollToSection('inicio')}>Inicio</Button>
             </li>
             <li>
-              <Button onClick={() => scrollToSection('mi-persona')}>Mi Persona</Button>
+              <Button bg="#532a6a"
+              textColor="#ffffff"
+              borderColor="#000000" onClick={() => scrollToSection('mi-persona')}>Mi Persona</Button>
             </li>
             <li>
-              <Button onClick={() => scrollToSection('trabajo')}>Trabajo</Button>
+              <Button bg="#532a6a"
+              textColor="#ffffff"
+              borderColor="#000000" onClick={() => scrollToSection('trabajo')}>Trabajo</Button>
             </li>
             <li>
-              <Button onClick={() => scrollToSection('contacto')}>Contacto</Button>
+              <Button bg="#532a6a"
+              textColor="#ffffff"
+              borderColor="#000000" onClick={() => scrollToSection('contacto')}>Contacto</Button>
             </li>
           </ul>
         </div>
