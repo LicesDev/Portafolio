@@ -20,7 +20,7 @@ const App = () => {
       </section>
 
       <section id="contacto">
-      <Contact />
+
       </section>
 
     </>

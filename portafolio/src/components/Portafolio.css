@@ -3,11 +3,12 @@
     height: 350px;
 }
 .logo_beacon{
-    height: 200px;
+    height: 12vw;
     margin: auto;
 }
 p{
     max-width: 60%;
+    font-size: 1.5vw;
 }
 
 .cards{
@@ -15,5 +16,14 @@ p{
 }
 
 .carta{
-    margin-top: 40px;
+    margin-top: 4vw;
+    width: 100%;
+}
+video{
+max-width: 50% !important;
+max-height: 100% !important;
+}
+
+.video{
+    display: flex;
 }
