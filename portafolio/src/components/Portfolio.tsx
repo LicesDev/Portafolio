@@ -22,6 +22,7 @@ const Portfolio = () => {
         <h4>Trabajos</h4>
         <div className="portafolio-container">
           <section className="portafolio-item">
+          <img  src={`${process.env.PUBLIC_URL}/BeaconApp2.gif`} alt="logo" />
             <img src="https://unsplash.it/400/430?image=490" alt="" className="portafolio-img" />
             <section className="portafolio-text">
               <h5>Genialidea</h5>

@@ -41,7 +41,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="photo-text">
-        <img className='Logo_img' src="/logo.png" alt="logo" />
+        <img className='Logo_img' src={`${process.env.PUBLIC_URL}/logo.png`} alt="logo" />
         <h4 data-ix="skype">Analista Programador</h4>
         <p data-ix="subtitle-hero-up">Mis redes sociales</p>
         <div className="social-icons">
