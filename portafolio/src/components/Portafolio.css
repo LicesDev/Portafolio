@@ -4,18 +4,34 @@
     justify-content: space-around;
 }
 .logo_beacon{
-    height: 12vw;
+    
+    height: 13vw;
     margin: auto;
     min-height: 70px;
+    border-radius: 20%;
+    background: rgba(91, 8, 102, 0.281);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+    padding: 1vw;
 }
 .logo_dimen{
     height: 14vw;
-    min-height: 100px;
-    margin: auto;
+    min-height: 70px;
+    margin: auto; 
+    border-radius: 20%;
+    background: rgba(91, 8, 102, 0.281);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
 }
 p{
     max-width: 70%;
     font-size: clamp(12px, 2.5vw, 30px);
+}
+
+h2{
+    font-size: clamp(20px, 4vw, 50px) !important;
 }
 
 .cards{

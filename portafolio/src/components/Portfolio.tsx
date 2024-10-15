@@ -54,7 +54,7 @@ const Portfolio = () => {
             Una aplicación web diseñada para la cubicación de paquetes a través de una cámara especial. También integra la lectura de códigos QR, 
             lo que optimiza la captura de información de cada paquete. La información recopilada se guarda en una base de datos, ayudando a 
             dimensionar el transporte necesario de manera más eficiente.
-							<img
+			<img
 								className="logo_dimen"
 								src={`${process.env.PUBLIC_URL}/logoDimensionador.png`}
 								alt="logo"
@@ -67,7 +67,9 @@ const Portfolio = () => {
 							controls
 							src={`${process.env.PUBLIC_URL}/BeaconApp1.mp4`}
 						></video>
+
 					</div>
+
 				</Card>
 			</div>
 		</section>

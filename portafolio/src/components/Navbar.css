@@ -94,7 +94,7 @@
   }
 
   .icons__icons{
-    font-size: clamp(15px, 3vw, 40px);
+    font-size: clamp(25px, 3vw, 40px);
     margin: 0.8rem;
     color: #ffffff;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
