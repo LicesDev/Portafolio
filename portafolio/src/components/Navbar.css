@@ -9,13 +9,11 @@
     backdrop-filter: blur(10px); /* Efecto de vidrio (opcional) */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para mejorar la visibilidad */
   }
-  
-  .menu {
-    justify-content: space-between;
-  }
+
   .menu, ol, ul {
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -24,7 +22,7 @@
     text-transform: uppercase;
     float: left;
     font-weight: 300;
-    font-size: 2.2vw;
+    font-size: clamp(10px, 2.2vw, 24px);
     letter-spacing: 2px;
     position: relative;
     z-index: 999;
@@ -32,7 +30,8 @@
   }
 .boton{
   width: 8vw;
-  font-size: 1vw;
+  min-width: 80px;
+  font-size: clamp(10px, 1vw, 20px);
 }
 
 
@@ -67,7 +66,7 @@
   }
   
   .photo h4 {
-    font-size: 4vw;
+    font-size: clamp(20px, 4vw, 70px);
     text-transform: uppercase;
     letter-spacing: 1.2px;
     color: #ffffff;
@@ -79,7 +78,7 @@
   }
   
   .photo p {
-    font-size: 2.5vw;
+    font-size: clamp(15px, 2vw, 50px);
     width: 60%;
     text-align: center;
     letter-spacing: 1.5px;
@@ -95,7 +94,7 @@
   }
 
   .icons__icons{
-    font-size: 3vw;
+    font-size: clamp(15px, 3vw, 40px);
     margin: 0.8rem;
     color: #ffffff;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);

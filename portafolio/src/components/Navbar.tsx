@@ -16,7 +16,7 @@ const Navbar = () => {
     <section className="photo" id="inicio">
       <div className="nav" id="sticker">
         <div className="menu">
-          <h5 className="titulo">Daniel Santelices</h5>
+
           <ul>
             <li>
               <Button 

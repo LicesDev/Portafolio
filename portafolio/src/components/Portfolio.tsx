@@ -55,7 +55,7 @@ const Portfolio = () => {
             lo que optimiza la captura de información de cada paquete. La información recopilada se guarda en una base de datos, ayudando a 
             dimensionar el transporte necesario de manera más eficiente.
 							<img
-								className="logo_beacon"
+								className="logo_dimen"
 								src={`${process.env.PUBLIC_URL}/logoDimensionador.png`}
 								alt="logo"
 							/>
