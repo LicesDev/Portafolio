@@ -1,0 +1,8 @@
+@import 'pixel-retroui/dist/index.css';
+
+/* Agrega tus estilos globales */
+body {
+  margin: 0;
+  background-color: black;
+}
+/* Otros estilos según necesidad... */

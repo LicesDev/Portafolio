@@ -1,0 +1,120 @@
+/*MENU*/
+.nav {
+  padding: 10px;
+    height: 70px;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(108, 17, 126, 0.027); /* Fondo semi-transparente */
+    backdrop-filter: blur(10px); /* Efecto de vidrio (opcional) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para mejorar la visibilidad */
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu, ol, ul {
+    display: flex;
+    align-items: center;
+
+}
+  .menu a {
+    clear: right;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+    line-height: 70px;
+    letter-spacing: .9px;
+    text-transform: uppercase;
+    transition: all 250ms ease;
+  }
+  
+  .menu h5 {
+    margin: 0 30px;
+    text-transform: uppercase;
+    float: left;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 999;
+    color: #FEFFFF;
+  }
+
+  .photo {
+    
+    width: 100%;
+    height: 43rem;
+    position: relative;
+    background: url('https://images8.alphacoders.com/841/841718.jpg') center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .photo-text {
+    margin-top: 3rem;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+  }
+  
+  .overlay {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 200vh;
+    top: 0;
+    left: 0;
+    background: rgba(77, 44, 77, 0.411);
+  }
+  
+  .photo h4 {
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 998;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+  
+  .photo p {
+    width: 60%;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    position: relative;
+    z-index: 998;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+
+  .icons__link{
+    position: relative;
+    z-index: 2;
+  }
+
+  .icons__icons{
+    font-size: 2rem;
+    margin: 0.8rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+.Logo_img{
+  z-index: 3;
+  height: 10em;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 0.8rem;
+  
+}
+  /* Resto de tu CSS se mantiene igual */
+  
