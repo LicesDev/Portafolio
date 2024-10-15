@@ -1,7 +1,7 @@
 /*MENU*/
 .nav {
   padding: 10px;
-    height: 70px;
+    height: 5.0vw;
     z-index: 999;
     position: fixed;
     width: 100%;
@@ -35,12 +35,17 @@
     text-transform: uppercase;
     float: left;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 2.5vw;
     letter-spacing: 2px;
     position: relative;
     z-index: 999;
     color: #FEFFFF;
   }
+.boton{
+  width: 8vw;
+  font-size: 1vw;
+}
+
 
   .photo {
     
@@ -73,7 +78,7 @@
   }
   
   .photo h4 {
-    font-size: 3.75rem;
+    font-size: 4vw;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     color: #ffffff;
@@ -85,6 +90,7 @@
   }
   
   .photo p {
+    font-size: 2.5vw;
     width: 60%;
     text-align: center;
     letter-spacing: 1.5px;
@@ -100,10 +106,14 @@
   }
 
   .icons__icons{
-    font-size: 2rem;
+    font-size: 2.5vw;
     margin: 0.8rem;
     color: #ffffff;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+
+  .fa-linkedin{
+    color: rgb(0, 162, 255);
   }
 .Logo_img{
   z-index: 3;

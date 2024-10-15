@@ -16,26 +16,33 @@ const Navbar = () => {
     <section className="photo" id="inicio">
       <div className="nav" id="sticker">
         <div className="menu">
-          <h5 className="logo">Daniel Santelices</h5>
+          <h5 className="titulo">Daniel Santelices</h5>
           <ul>
             <li>
               <Button 
+              className='boton'
               bg="#532a6a"
               textColor="#ffffff"
               borderColor="#000000" onClick={() => scrollToSection('inicio')}>Inicio</Button>
             </li>
             <li>
-              <Button bg="#532a6a"
+              <Button
+              className='boton'
+               bg="#532a6a"
               textColor="#ffffff"
-              borderColor="#000000" onClick={() => scrollToSection('mi-persona')}>Mi Persona</Button>
+              borderColor="#000000" onClick={() => scrollToSection('mi-persona')}>Acerca de</Button>
             </li>
             <li>
-              <Button bg="#532a6a"
+              <Button
+              className='boton'
+               bg="#532a6a"
               textColor="#ffffff"
               borderColor="#000000" onClick={() => scrollToSection('trabajo')}>Trabajo</Button>
             </li>
             <li>
-              <Button bg="#532a6a"
+              <Button
+              className='boton'
+               bg="#532a6a"
               textColor="#ffffff"
               borderColor="#000000" onClick={() => scrollToSection('contacto')}>Contacto</Button>
             </li>
