@@ -28,20 +28,14 @@ const Portfolio = () => {
 								alt="logo"
 							/>
 						</p>
-						<div className="video">
+
 						<video
 							width="320"
 							height="180"
 							controls
 							src={`${process.env.PUBLIC_URL}/BeaconApp1.mp4`}
 						></video>
-						<video
-							width="320"
-							height="180"
-							controls
-							src={`${process.env.PUBLIC_URL}/BeaconApp2.mp4`}
-						></video>
-						</div>
+
 					</div>
 				</Card>
 			</div>
@@ -66,20 +60,13 @@ const Portfolio = () => {
 								alt="logo"
 							/>
 						</p>
-						<div className="video">
+
 						<video
 							width="320"
 							height="180"
 							controls
 							src={`${process.env.PUBLIC_URL}/BeaconApp1.mp4`}
 						></video>
-						<video
-							width="320"
-							height="180"
-							controls
-							src={`${process.env.PUBLIC_URL}/BeaconApp2.mp4`}
-						></video>
-						</div>
 					</div>
 				</Card>
 			</div>

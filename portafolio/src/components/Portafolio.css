@@ -19,11 +19,3 @@ p{
     margin-top: 4vw;
     width: 100%;
 }
-video{
-max-width: 50% !important;
-max-height: 100% !important;
-}
-
-.video{
-    display: flex;
-}
