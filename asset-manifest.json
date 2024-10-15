@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1fb3d7c.css",
-    "main.js": "/static/js/main.5833352e.js",
-    "static/media/Minecraft.otf": "/static/media/Minecraft.57fc711acf3e604e6e03.otf",
-    "index.html": "/index.html",
-    "main.c1fb3d7c.css.map": "/static/css/main.c1fb3d7c.css.map",
-    "main.5833352e.js.map": "/static/js/main.5833352e.js.map"
+    "main.css": "/Portafolio/npm%20install%20gh-pages%20/static/css/main.6aa24149.css",
+    "main.js": "/Portafolio/npm%20install%20gh-pages%20/static/js/main.0a3ec9a5.js",
+    "static/media/Minecraft.otf": "/Portafolio/npm%20install%20gh-pages%20/static/media/Minecraft.57fc711acf3e604e6e03.otf",
+    "index.html": "/Portafolio/npm%20install%20gh-pages%20/index.html",
+    "main.6aa24149.css.map": "/Portafolio/npm%20install%20gh-pages%20/static/css/main.6aa24149.css.map",
+    "main.0a3ec9a5.js.map": "/Portafolio/npm%20install%20gh-pages%20/static/js/main.0a3ec9a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1fb3d7c.css",
-    "static/js/main.5833352e.js"
+    "static/css/main.6aa24149.css",
+    "static/js/main.0a3ec9a5.js"
   ]
 }
